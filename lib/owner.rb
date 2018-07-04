@@ -23,5 +23,9 @@ class Owner
     @@count
   end
   
+  def species
+    "human"
+  end
+  
   
 end
