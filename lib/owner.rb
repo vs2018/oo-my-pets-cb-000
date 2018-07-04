@@ -69,6 +69,13 @@ class Owner
   #   @pets[:dogs] = []
   # end
   
+  def list_pets
+    fish = 0
+    @pets[:fishes].each do |fish|
+      fish += 1
+    end
+  end
+  
   
   
 end
