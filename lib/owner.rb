@@ -1,7 +1,6 @@
 class Owner
   
-  attr_accessor :pets
-  attr_writer :name
+  attr_accessor :pets, :name
   
   @@all = []
   @@count = 0
