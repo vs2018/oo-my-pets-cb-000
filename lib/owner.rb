@@ -6,7 +6,7 @@ class Owner
   
   def initialize(type)
     # @pets = {fishes: [], cats: [], dogs: []}
-    @@all << self
+    @@all << self if type == "human"
   end
   
   def self.all
