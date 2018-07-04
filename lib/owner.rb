@@ -59,7 +59,9 @@ class Owner
   end
   
   def sell_pets
-    
+    @pets[:fishes] = []
+    @pets[:cats] = []
+    @pets[:dogs] = []
   end
   
   
