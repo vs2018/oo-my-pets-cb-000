@@ -70,10 +70,20 @@ class Owner
   # end
   
   def list_pets
-    fish = 0
+    fishes = 0
     @pets[:fishes].each do |fish|
-      fish += 1
+      fishes += 1
     end
+    cats = 0
+    @pets[:cats].each do |cat|
+      cats += 1
+    end
+    dogs = 0
+    @pets[:dogs].each do |dog|
+      dogs += 1
+    end
+    
+    "I have #{fishes} fish, #{dogs} dog(s), and #{cats} cat(s)."
   end
   
   
